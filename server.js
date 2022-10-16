@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
   })
 
-app.post('/', (req, res) => {});
-  
+
+  app.post('/', (req, res) => {});
 app.listen(port, () => {
     connect();
     console.log(`Example app listening on port ${port}`)
