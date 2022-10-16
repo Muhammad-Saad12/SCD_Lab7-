@@ -19,8 +19,10 @@ const connect=async()=>{
 app.get('/', (req, res) => {
     res.send('Hello World!')
   })
+
+app.post('/', (req, res) => {});
   
-  app.listen(port, () => {
+app.listen(port, () => {
     connect();
     console.log(`Example app listening on port ${port}`)
   })
