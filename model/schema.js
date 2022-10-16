@@ -6,5 +6,5 @@ const userSchema = new mongoose.Schema({
         required:true
     },
 })
-const userModel = mongoose.model("schema", userSchema);
+var userModel = mongoose.model("schema", userSchema);
 export default userModel;
